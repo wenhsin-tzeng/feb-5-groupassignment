@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+}
+
+/* .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
+  width: 100vw;
+  height: 100%;
+  padding-top: 50px;
+} */
+.container{
+  position: absolute;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  justify-content: space-evenly center;
+  width: 1050px;
+  height: 1050px;
+  margin-top: 100px;
+  left: calc(50% - 546px);
+  padding: 20px;
+}
+
+.circle{
+  margin: 10px;
+  background-color: black;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.circle1{
+  margin: 10px;
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.triangle{
+  margin: 13px;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 120px solid black;
+}
